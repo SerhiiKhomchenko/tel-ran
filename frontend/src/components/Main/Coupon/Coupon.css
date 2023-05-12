@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.coupon_wrapper {
+    display: flex;
+    margin-top: 50px;
+    width: auto;
+    height: 500px;
+    background-color: #339933;
+    justify-content: space-around;
+}
+
+.coupon_pct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupon_info {
+    display: block;
+    margin: auto;
+}
+
+.coupon_info p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 130%;
+    color:#FFFFFF;
+
+    width: 500px;
+    padding-left: 0px;
+}
+
+.coupon_info p span {
+    font-size: 70px;
+
+}
+
+.input_wrapper {
+    padding-top: 40px;
+    padding-left: 0px;   
+}
+
+.input_wrapper input {
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 10px 10px 10px 10px; 
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+
+    letter-spacing: 0.03em;
+
+    color: #6C6C6C;
+}
+
+.input_wrapper button {
+    height: 40px;
+    width: 500px;
+    background: transparent;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 10px 10px 10px 10px; 
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.7392px;
+    line-height: 120%;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.discount_wrapper {
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+
+.errors p{
+    font-size: 15px;
+    padding-left: 0;
+}

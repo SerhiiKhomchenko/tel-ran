@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.banner_wrapper {
+    display: flex;
+    margin-top: 50px;
+    width: auto;
+    height: 500px;
+    background-color: #A1E2EB;
+    justify-content: space-between;
+}
+
+.banner_wrapper h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 130%;
+    color: white;
+
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.banner_wrapper p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 130%;
+    color: white;
+
+    padding-left: 50px;
+}
+
+.banner_wrapper .sale_button {
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.banner_wrapper button {
+    width: 150px;
+    height: 80px;
+    
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+
+.banner_wrapper .banner_pct {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.banner_wrapper .banner_pct img {
+    width: 600px;
+}

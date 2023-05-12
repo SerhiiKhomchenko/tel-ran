@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.filter_block h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.filter_block input {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.discounted_items h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 5px;
+    width: 150px;
+}
